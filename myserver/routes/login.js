@@ -21,6 +21,7 @@ router.get('/', function (req, res, next) {
     // res.render('index', { title: 'Express' });
     // render()는 views/index.pug(Jade) 로 title 변수 내용 전달.
     // 여기서 우리는 view를 사용할 것이 아니기 때문에 render() 사용 안함.
+    
     console.log(req.url);
     console.log(req.body.id.toString());
     console.log(req.body.pw.toString());

@@ -17,7 +17,7 @@ connection.connect(function (err) {
     }
 });
 
-router.get('/', function (req, res, next) {
+router.post('/', function (req, res, next) {
     console.log(req.url);
     console.log(req.body.id.toString());
     console.log(req.body.pw.toString());
