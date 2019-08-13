@@ -36,25 +36,25 @@ set DEBUG=myserver:* & npm start
 
 ### myserver 의 디렉토리 구조
 
-.
-├── app.js
-├── bin
-│   └── www
-├── package.json
-├── public
-│   ├── images
-│   ├── javascripts
-│   └── stylesheets
-│       └── style.css
-├── routes
-│   ├── index.js
-│   └── login.js
-│   └── post.js
-│   └── register.js
-└── views
-    ├── error.pug
-    ├── index.pug
-    └── layout.pug
+.    
+├── app.js   
+├── bin     
+│   └── www   
+├── package.json   
+├── public   
+│   ├── images   
+│   ├── javascripts   
+│   └── stylesheets   
+│       └── style.css  
+├── routes   
+│   ├── index.js   
+│   └── login.js  
+│   └── post.js  
+│   └── register.js   
+└── views   
+    ├── error.pug   
+    ├── index.pug   
+    └── layout.pug   
 
 ### 각 디렉토리의 역할
 
