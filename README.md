@@ -21,6 +21,12 @@ Mac OS or Linux
 set DEBUG=myserver:* & npm start
 ```
 
+To shut down node program
+
+```
+killall node
+```
+
 
 ## Built With
 

@@ -36,7 +36,7 @@ router.post('/', function (req, res, next) {
             res.send("failed, error ocurred");
         } else {
             console.log("Response From Database", results);
-            res.status(200).send("success, user registered sucessfully");
+            res.status(200).send(JSON.parse(JSON.stringify(results)));
         }
     });
 });

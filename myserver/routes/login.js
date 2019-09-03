@@ -38,7 +38,7 @@ router.get('/', function (req, res, next) {
 
             if (results.length > 0) {
                 if (results[0].pw == password) {
-                    res.status(200).send("success, login sucessfull");
+                    res.status(200).send(JSON.parse(JSON.stringify(results)));
                 } else {
                     res.send("fail, Email and password does not match");
                 }
